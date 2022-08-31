@@ -1,5 +1,6 @@
 import { Counter } from "./components/Counter";
 import { FetchData } from "./components/FetchData";
+import { Gameover } from "./components/Gameover";
 import { Home } from "./components/Home";
 
 const AppRoutes = [
@@ -14,6 +15,10 @@ const AppRoutes = [
   {
     path: '/fetch-data',
     element: <FetchData />
+  },
+  {
+    path: '/gameover',
+    element: <Gameover />
   }
 ];
 
