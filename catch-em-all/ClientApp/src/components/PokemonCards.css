@@ -1,0 +1,15 @@
+.card-image {
+  position: relative;
+}
+img.pokemon {
+  position: absolute;
+  z-index: 1;
+}
+img.pokeball {
+  position: absolute !important;
+  opacity: 0;
+  z-index: 2;
+}
+img.pokeball:hover {
+  opacity: 1;
+}
