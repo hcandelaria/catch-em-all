@@ -2,6 +2,8 @@
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import { useContext } from 'react';
 import PokemonContext from '../context/PokemonContext';
+import pokedexIcon from '../img/pokedexIcon.png';
+
 
 const navigation = [
   { name: 'Game', href: '/', current: true, disable: false },
@@ -79,8 +81,8 @@ export default function Navbar() {
                   <div>
                     <img
                       className="h-8 w-8"
-                      src="https://cdn.icon-icons.com/icons2/851/PNG/512/Pokedex_tool_icon-icons.com_67529.png"
-                      alt=""
+                      src={pokedexIcon}
+                      alt="pokedex icon"
                     />
                   </div>
                 </Menu>
